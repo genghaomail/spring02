@@ -19,4 +19,10 @@ public class HelloController {
         return "Hello World!";
     }
 
+    @ResponseBody
+    @RequestMapping("/test2")
+    public String test2(){
+        return "test2";
+    }
+
 }
